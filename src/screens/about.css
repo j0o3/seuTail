@@ -1,0 +1,85 @@
+.aboutus_wrap{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 20px 86px;
+    gap: 50px;
+}
+
+.aboutus_text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 171px;
+    margin-left: 161px;
+}
+
+.aboutus_text h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.aboutus_text p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    width: 384px;
+}
+
+.big_logo img{
+    width: 423px;
+    height: 464px;
+}
+
+.blackbox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+    height: 600px;
+    background-color: black;
+}
+
+.blackbox_text{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.blackbox_text span{
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 14px;
+    
+
+display: flex;
+align-items: center;
+letter-spacing: 0.5px;
+}
+
+.blackbox_text h1{
+    width: 360px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.groupbox_warp{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.groupbox_warp img{
+    width: 224px;
+    height: 224px;
+}

@@ -1,0 +1,134 @@
+.container_textprod{
+    display: flex;
+    flex-direction: column;
+    width: 694px;
+    margin: 100px auto 45px auto;
+    text-align: center;
+}
+
+.container_textprod h4{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navprod_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 42px;
+    margin-top: 40px;
+}
+
+.navprod_menu span{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.navprod_menu span::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    border-bottom: 2px solid black;
+    transition: .3s linear;
+}
+
+.navprod_menu span:hover::before{
+	width: 100%;
+    left: 0;
+	
+}
+
+.navprod_menu span:hover{
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+
+.container_menuprod{
+    display: flex;
+    flex-direction: row;
+    width: 1165px;
+    margin: 45px auto;
+    gap: 20px;
+}
+
+.suggestion_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 617px;
+    margin: 100px 85px;
+}
+
+.minibox_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.minibox_wrap img{
+    width: 151px;
+    height: 143px;
+}
+
+.heading{
+    margin-bottom: 20px;
+}
+
+.heading span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.minibox{
+    display: flex;
+    flex-direction: row;
+}
+
+.textsuggest_wrap{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.textsuggest_wrap h3{
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    transition: all .1s linear;
+    cursor: pointer;
+}
+
+.textsuggest_wrap h3:hover{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.textsuggest_wrap p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+}
+
+.bigbox img {
+    width: 628px;
+    height: 616px;
+}

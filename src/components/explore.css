@@ -1,0 +1,63 @@
+.cardbox_explore{
+    display: flex;
+    height: 555px;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-image: url(../assets/explore-bg.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 160px 118px; 
+    align-items: center; 
+}
+
+.cardbox_explore span{
+    width: 395px;
+    margin-top: 188px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.btn_explore{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 135px;
+    border: 2px solid white;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.btn_explore::before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: .3s linear;
+    z-index: -1;
+}
+
+.btn_explore:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.btn_explore:hover{
+    color: black;
+}
